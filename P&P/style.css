@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     background: black;
-    font-family: 'Barlow', sans-serif;
+    
 }
 
 .button-container {
@@ -23,5 +23,11 @@ body {
 
 button {
     cursor: pointer;
-     
+    outline: none;
+    width: 120px;
+    height: 75px;
+    font-family: 'Barlow', sans-serif;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 2px 5px black;
 }
