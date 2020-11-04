@@ -13,3 +13,9 @@ body {
     background: black;
     font-family: 'Barlow', sans-serif;
 }
+
+.button-container {
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 7px;
+}
