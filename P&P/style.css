@@ -15,7 +15,13 @@ body {
 }
 
 .button-container {
-    border: 2px solid white;
+    border: .2px solid white;
     padding: 10px;
     border-radius: 7px;
+    box-shadow: inset 5px 20px 4px -19px rgb(255, 255, 255, 0.7);
+}
+
+button {
+    cursor: pointer;
+     
 }
