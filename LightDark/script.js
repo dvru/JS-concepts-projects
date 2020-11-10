@@ -1,4 +1,4 @@
-const toggleSwitch = document.querySelector('input[type="checkbox"]');
+const toggleSwitch = document.querySelector('input[type="checkbox"]'); // grabbing the toggle switch
 const nav = document.getElementById('nav');
 const toggleIcon = document.getElementById('toggle-icon');
 const image1 = document.getElementById('image1');
@@ -33,6 +33,7 @@ function lightMode() {
 
 // Switch Theme Dynamically
 function switchTheme(event) {
+    // console.log(event)
   if (event.target.checked) {
     document.documentElement.setAttribute('data-theme', 'dark');
     localStorage.setItem('theme', 'dark');
