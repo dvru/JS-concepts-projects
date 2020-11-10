@@ -184,6 +184,8 @@ nav {
   .fab:hover {
     color: var(--on-background);
   }
+
+  
   
   /* Dark Mode Toggle */
   .theme-switch-wrapper {
