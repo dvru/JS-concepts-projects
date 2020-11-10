@@ -1,3 +1,4 @@
+// Content we want to change
 const toggleSwitch = document.querySelector('input[type="checkbox"]'); // grabbing the toggle switch
 const nav = document.getElementById('nav');
 const toggleIcon = document.getElementById('toggle-icon');
