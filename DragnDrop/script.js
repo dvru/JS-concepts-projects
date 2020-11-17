@@ -1,10 +1,11 @@
-const addBtns = document.querySelectorAll('.add-btn:not(.solid)');
-const saveItemBtns = document.querySelectorAll('.solid');
-const addItemContainers = document.querySelectorAll('.add-container');
-const addItems = document.querySelectorAll('.add-item');
+// const for HTML elements 
+const addBtns = document.querySelectorAll('.add-btn:not(.solid)'); // add button to list
+const saveItemBtns = document.querySelectorAll('.solid'); // saved button
+const addItemContainers = document.querySelectorAll('.add-container'); // add to container
+const addItems = document.querySelectorAll('.add-item'); // add to column
 
 // Item Lists
-const listColumns = document.querySelectorAll('.drag-item-list');
+const listColumns = document.querySelectorAll('.drag-item-list'); // all the lists that are holding all out items
 const backlogListEl = document.getElementById('backlog-list');
 const progressListEl = document.getElementById('progress-list');
 const completeListEl = document.getElementById('complete-list');
@@ -14,7 +15,7 @@ const onHoldListEl = document.getElementById('on-hold-list');
 let updatedOnLoad = false;
 
 // Initialize Arrays
-let backlogListArray = [];
+let backlogListArray = []; // array that stores the data for each of our lists
 let progressListArray = [];
 let completeListArray = [];
 let onHoldListArray = [];
