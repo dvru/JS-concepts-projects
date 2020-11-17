@@ -131,7 +131,7 @@ function addToColumn(column) {
 
 // Show Add Item Input Box
 function showInputBox(column) {
-  addBtns[column].style.visibility = 'hidden';
+  addBtns[column].style.visibility = 'hidden'; // change the css directly within an element
   saveItemBtns[column].style.display = 'flex';
   addItemContainers[column].style.display = 'flex';
 }
