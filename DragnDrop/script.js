@@ -167,7 +167,6 @@ function rebuildArrays() {
 
 // When Item Enters Column Area
 function dragEnter(column) {
-  console.log(listColumns);
   listColumns[column].classList.add('over');
   currentColumn = column;
 }
