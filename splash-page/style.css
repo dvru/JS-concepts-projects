@@ -1,10 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat:wght@300&display=swap');
+
 html {
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    overflow-x: hidden;
+    font-family: 'Josefin Sans', sans-serif;
+    color: #54575A;
     background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
+    
 }
 
 .wrapper {
@@ -12,5 +18,28 @@ body {
     width: 1440px;
     min-height: 100vh;
     margin: auto;
-    background: grey;
+}
+
+.title {
+    position: absolute;
+    width: 458px;
+    height: 135px;
+    left: 221px;
+    top: 236px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 67px;
+}
+
+.text {
+    position: absolute;
+    width: 394px;
+    height: 96px;
+    left: 221px;
+    top: 403px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
 }
