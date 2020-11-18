@@ -2,15 +2,17 @@
 
 html {
     box-sizing: border-box;
+    
 }
 
 body {
     margin: 0;
     overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif;
-    color: #54575A;
-    background: linear-gradient(180deg, #FFFFFF 0%, #F3F8F7 49.91%, #FFF9F5 94.19%);
-    
+    color: #999ca0;
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .wrapper {
@@ -166,7 +168,10 @@ body {
 
 .background-3 {
     /* background: url("./img/triangles.png") */
-    background: #1c92d2;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #0B486B;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #F56217, #0B486B);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #F56217, #0B486B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+    
+    
 }
